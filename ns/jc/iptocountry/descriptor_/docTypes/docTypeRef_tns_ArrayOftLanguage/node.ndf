@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <record name="record" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="node_nsName">jc.iptocountry.descriptor_.docTypes:docTypeRef_tns_ArrayOftLanguage</value>
+    <value name="node_pkg">JcTestSoapService</value>
+    <value name="is_public">false</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <value name="schemaDomain">857a116e8a654e9a9f62bcd5178cf073</value>
+    <value name="docTypeDomain">8e6ab095c9c7469c94e85f1a94fc4d30</value>
+    <value name="originURI">http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?WSDL</value>
+    <array name="rec_fields" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">tns:tLanguage</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">1</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">true</value>
+        <value name="field_xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+        <value name="form_qualified">true</value>
+        <value name="is_global">false</value>
+        <value name="is_soap_array_encoding_used">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">jc.iptocountry.descriptor_.docTypes:docTypeRef_tns_tLanguage</value>
+      </record>
+    </array>
+    <record name="schemaType" javaclass="com.wm.util.Values">
+      <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+      <value name="ncName">ArrayOftLanguage</value>
+    </record>
+    <value name="schemaRegistered">true</value>
+    <value name="modifiable">false</value>
+    <value name="parentWsd">jc.iptocountry:descriptor</value>
+  </record>
+</Values>

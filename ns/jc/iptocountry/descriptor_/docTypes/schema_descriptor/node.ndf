@@ -1,0 +1,2860 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <record name="schema" javaclass="com.wm.util.Values">
+    <value name="node_type">schema</value>
+    <value name="node_subtype">unknown</value>
+    <value name="node_nsName">jc.iptocountry.descriptor_.docTypes:schema_descriptor</value>
+    <value name="node_pkg">JcTestSoapService</value>
+    <value name="is_public">false</value>
+    <value name="contentType">3</value>
+    <value name="targetNamespace">http://www.oorsprong.org/websamples.countryinfo</value>
+    <value name="schemaDomain">857a116e8a654e9a9f62bcd5178cf073</value>
+    <record name="attributes" javaclass="com.wm.util.Values">
+      <list name="table">
+      </list>
+    </record>
+    <record name="elements" javaclass="com.wm.util.Values">
+      <list name="table">
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">ListOfLanguagesByCodeResponse</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                <value name="name">ListOfLanguagesByCodeResult</value>
+                <record name="type" javaclass="com.wm.util.Values">
+                  <value name="contentType">2</value>
+                  <value name="internalType">reference</value>
+                  <record name="targetName" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                    <value name="ncName">ArrayOftLanguage</value>
+                  </record>
+                </record>
+                <value name="form">true</value>
+                <value name="internalType">instance</value>
+              </record>
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                    <value name="ncName">ListOfLanguagesByCodeResult</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">simple</value>
+                </record>
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">CountriesUsingCurrencyResponse</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                <value name="name">CountriesUsingCurrencyResult</value>
+                <record name="type" javaclass="com.wm.util.Values">
+                  <value name="contentType">2</value>
+                  <value name="internalType">reference</value>
+                  <record name="targetName" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                    <value name="ncName">ArrayOftCountryCodeAndName</value>
+                  </record>
+                </record>
+                <value name="form">true</value>
+                <value name="internalType">instance</value>
+              </record>
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                    <value name="ncName">CountriesUsingCurrencyResult</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">simple</value>
+                </record>
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">ListOfContinentsByCodeResponse</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                <value name="name">ListOfContinentsByCodeResult</value>
+                <record name="type" javaclass="com.wm.util.Values">
+                  <value name="contentType">2</value>
+                  <value name="internalType">reference</value>
+                  <record name="targetName" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                    <value name="ncName">ArrayOftContinent</value>
+                  </record>
+                </record>
+                <value name="form">true</value>
+                <value name="internalType">instance</value>
+              </record>
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                    <value name="ncName">ListOfContinentsByCodeResult</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">simple</value>
+                </record>
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">LanguageName</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                <value name="name">sISOCode</value>
+                <record name="type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                      <value name="ncName">string</value>
+                    </record>
+                  </array>
+                </record>
+                <value name="form">true</value>
+                <value name="internalType">instance</value>
+              </record>
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                    <value name="ncName">sISOCode</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">simple</value>
+                </record>
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">FullCountryInfoResponse</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                <value name="name">FullCountryInfoResult</value>
+                <record name="type" javaclass="com.wm.util.Values">
+                  <value name="contentType">2</value>
+                  <value name="internalType">reference</value>
+                  <record name="targetName" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                    <value name="ncName">tCountryInfo</value>
+                  </record>
+                </record>
+                <value name="form">true</value>
+                <value name="internalType">instance</value>
+              </record>
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                    <value name="ncName">FullCountryInfoResult</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">simple</value>
+                </record>
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">CountryIntPhoneCode</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                <value name="name">sCountryISOCode</value>
+                <record name="type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                      <value name="ncName">string</value>
+                    </record>
+                  </array>
+                </record>
+                <value name="form">true</value>
+                <value name="internalType">instance</value>
+              </record>
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                    <value name="ncName">sCountryISOCode</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">simple</value>
+                </record>
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">CountryIntPhoneCodeResponse</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                <value name="name">CountryIntPhoneCodeResult</value>
+                <record name="type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                      <value name="ncName">string</value>
+                    </record>
+                  </array>
+                </record>
+                <value name="form">true</value>
+                <value name="internalType">instance</value>
+              </record>
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                    <value name="ncName">CountryIntPhoneCodeResult</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">simple</value>
+                </record>
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">ListOfCurrenciesByNameResponse</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                <value name="name">ListOfCurrenciesByNameResult</value>
+                <record name="type" javaclass="com.wm.util.Values">
+                  <value name="contentType">2</value>
+                  <value name="internalType">reference</value>
+                  <record name="targetName" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                    <value name="ncName">ArrayOftCurrency</value>
+                  </record>
+                </record>
+                <value name="form">true</value>
+                <value name="internalType">instance</value>
+              </record>
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                    <value name="ncName">ListOfCurrenciesByNameResult</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">simple</value>
+                </record>
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">LanguageISOCode</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                <value name="name">sLanguageName</value>
+                <record name="type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                      <value name="ncName">string</value>
+                    </record>
+                  </array>
+                </record>
+                <value name="form">true</value>
+                <value name="internalType">instance</value>
+              </record>
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                    <value name="ncName">sLanguageName</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">simple</value>
+                </record>
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">CountryISOCode</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                <value name="name">sCountryName</value>
+                <record name="type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                      <value name="ncName">string</value>
+                    </record>
+                  </array>
+                </record>
+                <value name="form">true</value>
+                <value name="internalType">instance</value>
+              </record>
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                    <value name="ncName">sCountryName</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">simple</value>
+                </record>
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">LanguageNameResponse</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                <value name="name">LanguageNameResult</value>
+                <record name="type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                      <value name="ncName">string</value>
+                    </record>
+                  </array>
+                </record>
+                <value name="form">true</value>
+                <value name="internalType">instance</value>
+              </record>
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                    <value name="ncName">LanguageNameResult</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">simple</value>
+                </record>
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">ListOfCountryNamesByCodeResponse</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                <value name="name">ListOfCountryNamesByCodeResult</value>
+                <record name="type" javaclass="com.wm.util.Values">
+                  <value name="contentType">2</value>
+                  <value name="internalType">reference</value>
+                  <record name="targetName" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                    <value name="ncName">ArrayOftCountryCodeAndName</value>
+                  </record>
+                </record>
+                <value name="form">true</value>
+                <value name="internalType">instance</value>
+              </record>
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                    <value name="ncName">ListOfCountryNamesByCodeResult</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">simple</value>
+                </record>
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">CountryFlag</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                <value name="name">sCountryISOCode</value>
+                <record name="type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                      <value name="ncName">string</value>
+                    </record>
+                  </array>
+                </record>
+                <value name="form">true</value>
+                <value name="internalType">instance</value>
+              </record>
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                    <value name="ncName">sCountryISOCode</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">simple</value>
+                </record>
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">CountryCurrencyResponse</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                <value name="name">CountryCurrencyResult</value>
+                <record name="type" javaclass="com.wm.util.Values">
+                  <value name="contentType">2</value>
+                  <value name="internalType">reference</value>
+                  <record name="targetName" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                    <value name="ncName">tCurrency</value>
+                  </record>
+                </record>
+                <value name="form">true</value>
+                <value name="internalType">instance</value>
+              </record>
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                    <value name="ncName">CountryCurrencyResult</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">simple</value>
+                </record>
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">CapitalCity</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                <value name="name">sCountryISOCode</value>
+                <record name="type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                      <value name="ncName">string</value>
+                    </record>
+                  </array>
+                </record>
+                <value name="form">true</value>
+                <value name="internalType">instance</value>
+              </record>
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                    <value name="ncName">sCountryISOCode</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">simple</value>
+                </record>
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">CountryISOCodeResponse</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                <value name="name">CountryISOCodeResult</value>
+                <record name="type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                      <value name="ncName">string</value>
+                    </record>
+                  </array>
+                </record>
+                <value name="form">true</value>
+                <value name="internalType">instance</value>
+              </record>
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                    <value name="ncName">CountryISOCodeResult</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">simple</value>
+                </record>
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">ListOfContinentsByCode</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">CountryCurrency</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                <value name="name">sCountryISOCode</value>
+                <record name="type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                      <value name="ncName">string</value>
+                    </record>
+                  </array>
+                </record>
+                <value name="form">true</value>
+                <value name="internalType">instance</value>
+              </record>
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                    <value name="ncName">sCountryISOCode</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">simple</value>
+                </record>
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">ListOfCountryNamesByCode</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">ListOfCurrenciesByCodeResponse</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                <value name="name">ListOfCurrenciesByCodeResult</value>
+                <record name="type" javaclass="com.wm.util.Values">
+                  <value name="contentType">2</value>
+                  <value name="internalType">reference</value>
+                  <record name="targetName" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                    <value name="ncName">ArrayOftCurrency</value>
+                  </record>
+                </record>
+                <value name="form">true</value>
+                <value name="internalType">instance</value>
+              </record>
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                    <value name="ncName">ListOfCurrenciesByCodeResult</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">simple</value>
+                </record>
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">CountriesUsingCurrency</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                <value name="name">sISOCurrencyCode</value>
+                <record name="type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                      <value name="ncName">string</value>
+                    </record>
+                  </array>
+                </record>
+                <value name="form">true</value>
+                <value name="internalType">instance</value>
+              </record>
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                    <value name="ncName">sISOCurrencyCode</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">simple</value>
+                </record>
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">FullCountryInfoAllCountriesResponse</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                <value name="name">FullCountryInfoAllCountriesResult</value>
+                <record name="type" javaclass="com.wm.util.Values">
+                  <value name="contentType">2</value>
+                  <value name="internalType">reference</value>
+                  <record name="targetName" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                    <value name="ncName">ArrayOftCountryInfo</value>
+                  </record>
+                </record>
+                <value name="form">true</value>
+                <value name="internalType">instance</value>
+              </record>
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                    <value name="ncName">FullCountryInfoAllCountriesResult</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">simple</value>
+                </record>
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">ListOfContinentsByName</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">FullCountryInfo</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                <value name="name">sCountryISOCode</value>
+                <record name="type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                      <value name="ncName">string</value>
+                    </record>
+                  </array>
+                </record>
+                <value name="form">true</value>
+                <value name="internalType">instance</value>
+              </record>
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                    <value name="ncName">sCountryISOCode</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">simple</value>
+                </record>
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">ListOfCountryNamesGroupedByContinent</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">ListOfCountryNamesGroupedByContinentResponse</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                <value name="name">ListOfCountryNamesGroupedByContinentResult</value>
+                <record name="type" javaclass="com.wm.util.Values">
+                  <value name="contentType">2</value>
+                  <value name="internalType">reference</value>
+                  <record name="targetName" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                    <value name="ncName">ArrayOftCountryCodeAndNameGroupedByContinent</value>
+                  </record>
+                </record>
+                <value name="form">true</value>
+                <value name="internalType">instance</value>
+              </record>
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                    <value name="ncName">ListOfCountryNamesGroupedByContinentResult</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">simple</value>
+                </record>
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">CountryFlagResponse</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                <value name="name">CountryFlagResult</value>
+                <record name="type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                      <value name="ncName">string</value>
+                    </record>
+                  </array>
+                </record>
+                <value name="form">true</value>
+                <value name="internalType">instance</value>
+              </record>
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                    <value name="ncName">CountryFlagResult</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">simple</value>
+                </record>
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">ListOfLanguagesByCode</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">ListOfLanguagesByNameResponse</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                <value name="name">ListOfLanguagesByNameResult</value>
+                <record name="type" javaclass="com.wm.util.Values">
+                  <value name="contentType">2</value>
+                  <value name="internalType">reference</value>
+                  <record name="targetName" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                    <value name="ncName">ArrayOftLanguage</value>
+                  </record>
+                </record>
+                <value name="form">true</value>
+                <value name="internalType">instance</value>
+              </record>
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                    <value name="ncName">ListOfLanguagesByNameResult</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">simple</value>
+                </record>
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">ListOfCountryNamesByName</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">ListOfCurrenciesByCode</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">LanguageISOCodeResponse</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                <value name="name">LanguageISOCodeResult</value>
+                <record name="type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                      <value name="ncName">string</value>
+                    </record>
+                  </array>
+                </record>
+                <value name="form">true</value>
+                <value name="internalType">instance</value>
+              </record>
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                    <value name="ncName">LanguageISOCodeResult</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">simple</value>
+                </record>
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">CurrencyName</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                <value name="name">sCurrencyISOCode</value>
+                <record name="type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                      <value name="ncName">string</value>
+                    </record>
+                  </array>
+                </record>
+                <value name="form">true</value>
+                <value name="internalType">instance</value>
+              </record>
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                    <value name="ncName">sCurrencyISOCode</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">simple</value>
+                </record>
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">FullCountryInfoAllCountries</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">ListOfContinentsByNameResponse</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                <value name="name">ListOfContinentsByNameResult</value>
+                <record name="type" javaclass="com.wm.util.Values">
+                  <value name="contentType">2</value>
+                  <value name="internalType">reference</value>
+                  <record name="targetName" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                    <value name="ncName">ArrayOftContinent</value>
+                  </record>
+                </record>
+                <value name="form">true</value>
+                <value name="internalType">instance</value>
+              </record>
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                    <value name="ncName">ListOfContinentsByNameResult</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">simple</value>
+                </record>
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">CountryNameResponse</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                <value name="name">CountryNameResult</value>
+                <record name="type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                      <value name="ncName">string</value>
+                    </record>
+                  </array>
+                </record>
+                <value name="form">true</value>
+                <value name="internalType">instance</value>
+              </record>
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                    <value name="ncName">CountryNameResult</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">simple</value>
+                </record>
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">ListOfLanguagesByName</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">CurrencyNameResponse</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                <value name="name">CurrencyNameResult</value>
+                <record name="type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                      <value name="ncName">string</value>
+                    </record>
+                  </array>
+                </record>
+                <value name="form">true</value>
+                <value name="internalType">instance</value>
+              </record>
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                    <value name="ncName">CurrencyNameResult</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">simple</value>
+                </record>
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">ListOfCurrenciesByName</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">CapitalCityResponse</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                <value name="name">CapitalCityResult</value>
+                <record name="type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                      <value name="ncName">string</value>
+                    </record>
+                  </array>
+                </record>
+                <value name="form">true</value>
+                <value name="internalType">instance</value>
+              </record>
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                    <value name="ncName">CapitalCityResult</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">simple</value>
+                </record>
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">ListOfCountryNamesByNameResponse</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                <value name="name">ListOfCountryNamesByNameResult</value>
+                <record name="type" javaclass="com.wm.util.Values">
+                  <value name="contentType">2</value>
+                  <value name="internalType">reference</value>
+                  <record name="targetName" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                    <value name="ncName">ArrayOftCountryCodeAndName</value>
+                  </record>
+                </record>
+                <value name="form">true</value>
+                <value name="internalType">instance</value>
+              </record>
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                    <value name="ncName">ListOfCountryNamesByNameResult</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">simple</value>
+                </record>
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">CountryName</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                <value name="name">sCountryISOCode</value>
+                <record name="type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                      <value name="ncName">string</value>
+                    </record>
+                  </array>
+                </record>
+                <value name="form">true</value>
+                <value name="internalType">instance</value>
+              </record>
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                    <value name="ncName">sCountryISOCode</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">simple</value>
+                </record>
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+      </list>
+    </record>
+    <record name="types" javaclass="com.wm.util.Values">
+      <list name="table">
+        <record javaclass="com.wm.util.Values">
+          <value name="contentType">2</value>
+          <value name="internalType">instance</value>
+          <value name="name">ArrayOftContinent</value>
+          <list name="elements">
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+              <value name="name">tContinent</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">2</value>
+                <value name="internalType">reference</value>
+                <record name="targetName" javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                  <value name="ncName">tContinent</value>
+                </record>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+              <value name="nullable">true</value>
+              <value name="nillable">true</value>
+            </record>
+          </list>
+          <list name="attributes">
+          </list>
+          <record name="contentModel" javaclass="com.wm.util.Values">
+            <record name="symbol" javaclass="com.wm.util.Values">
+              <value name="ncName">$$SEQUENCE</value>
+            </record>
+            <value name="minOccurs">1</value>
+            <value name="maxOccurs">1</value>
+            <value name="modelType">sequence</value>
+            <list name="children">
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                  <value name="ncName">tContinent</value>
+                </record>
+                <value name="minOccurs">0</value>
+                <value name="maxOccurs">*</value>
+                <value name="modelType">simple</value>
+              </record>
+            </list>
+          </record>
+          <array name="parent-ancestors" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+              <value name="ncName">anyType</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+              <value name="ncName">ArrayOftContinent</value>
+            </record>
+          </array>
+          <value name="classname">com.wm.lang.schema.WmComplexType</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="contentType">2</value>
+          <value name="internalType">instance</value>
+          <value name="name">ArrayOftCurrency</value>
+          <list name="elements">
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+              <value name="name">tCurrency</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">2</value>
+                <value name="internalType">reference</value>
+                <record name="targetName" javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                  <value name="ncName">tCurrency</value>
+                </record>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+              <value name="nullable">true</value>
+              <value name="nillable">true</value>
+            </record>
+          </list>
+          <list name="attributes">
+          </list>
+          <record name="contentModel" javaclass="com.wm.util.Values">
+            <record name="symbol" javaclass="com.wm.util.Values">
+              <value name="ncName">$$SEQUENCE</value>
+            </record>
+            <value name="minOccurs">1</value>
+            <value name="maxOccurs">1</value>
+            <value name="modelType">sequence</value>
+            <list name="children">
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                  <value name="ncName">tCurrency</value>
+                </record>
+                <value name="minOccurs">0</value>
+                <value name="maxOccurs">*</value>
+                <value name="modelType">simple</value>
+              </record>
+            </list>
+          </record>
+          <array name="parent-ancestors" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+              <value name="ncName">anyType</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+              <value name="ncName">ArrayOftCurrency</value>
+            </record>
+          </array>
+          <value name="classname">com.wm.lang.schema.WmComplexType</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="contentType">2</value>
+          <value name="internalType">instance</value>
+          <value name="name">tLanguage</value>
+          <list name="elements">
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+              <value name="name">sISOCode</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">string</value>
+                  </record>
+                </array>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+              <value name="name">sName</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">string</value>
+                  </record>
+                </array>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+          </list>
+          <list name="attributes">
+          </list>
+          <record name="contentModel" javaclass="com.wm.util.Values">
+            <record name="symbol" javaclass="com.wm.util.Values">
+              <value name="ncName">$$SEQUENCE</value>
+            </record>
+            <value name="minOccurs">1</value>
+            <value name="maxOccurs">1</value>
+            <value name="modelType">sequence</value>
+            <list name="children">
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                  <value name="ncName">sISOCode</value>
+                </record>
+                <value name="minOccurs">1</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                  <value name="ncName">sName</value>
+                </record>
+                <value name="minOccurs">1</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+            </list>
+          </record>
+          <array name="parent-ancestors" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+              <value name="ncName">anyType</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+              <value name="ncName">tLanguage</value>
+            </record>
+          </array>
+          <value name="classname">com.wm.lang.schema.WmComplexType</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="contentType">2</value>
+          <value name="internalType">instance</value>
+          <value name="name">tCountryCodeAndName</value>
+          <list name="elements">
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+              <value name="name">sISOCode</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">string</value>
+                  </record>
+                </array>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+              <value name="name">sName</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">string</value>
+                  </record>
+                </array>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+          </list>
+          <list name="attributes">
+          </list>
+          <record name="contentModel" javaclass="com.wm.util.Values">
+            <record name="symbol" javaclass="com.wm.util.Values">
+              <value name="ncName">$$SEQUENCE</value>
+            </record>
+            <value name="minOccurs">1</value>
+            <value name="maxOccurs">1</value>
+            <value name="modelType">sequence</value>
+            <list name="children">
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                  <value name="ncName">sISOCode</value>
+                </record>
+                <value name="minOccurs">1</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                  <value name="ncName">sName</value>
+                </record>
+                <value name="minOccurs">1</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+            </list>
+          </record>
+          <array name="parent-ancestors" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+              <value name="ncName">anyType</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+              <value name="ncName">tCountryCodeAndName</value>
+            </record>
+          </array>
+          <value name="classname">com.wm.lang.schema.WmComplexType</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="contentType">2</value>
+          <value name="internalType">instance</value>
+          <value name="name">ArrayOftCountryCodeAndNameGroupedByContinent</value>
+          <list name="elements">
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+              <value name="name">tCountryCodeAndNameGroupedByContinent</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">2</value>
+                <value name="internalType">reference</value>
+                <record name="targetName" javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                  <value name="ncName">tCountryCodeAndNameGroupedByContinent</value>
+                </record>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+              <value name="nullable">true</value>
+              <value name="nillable">true</value>
+            </record>
+          </list>
+          <list name="attributes">
+          </list>
+          <record name="contentModel" javaclass="com.wm.util.Values">
+            <record name="symbol" javaclass="com.wm.util.Values">
+              <value name="ncName">$$SEQUENCE</value>
+            </record>
+            <value name="minOccurs">1</value>
+            <value name="maxOccurs">1</value>
+            <value name="modelType">sequence</value>
+            <list name="children">
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                  <value name="ncName">tCountryCodeAndNameGroupedByContinent</value>
+                </record>
+                <value name="minOccurs">0</value>
+                <value name="maxOccurs">*</value>
+                <value name="modelType">simple</value>
+              </record>
+            </list>
+          </record>
+          <array name="parent-ancestors" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+              <value name="ncName">anyType</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+              <value name="ncName">ArrayOftCountryCodeAndNameGroupedByContinent</value>
+            </record>
+          </array>
+          <value name="classname">com.wm.lang.schema.WmComplexType</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="contentType">2</value>
+          <value name="internalType">instance</value>
+          <value name="name">ArrayOftCountryCodeAndName</value>
+          <list name="elements">
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+              <value name="name">tCountryCodeAndName</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">2</value>
+                <value name="internalType">reference</value>
+                <record name="targetName" javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                  <value name="ncName">tCountryCodeAndName</value>
+                </record>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+              <value name="nullable">true</value>
+              <value name="nillable">true</value>
+            </record>
+          </list>
+          <list name="attributes">
+          </list>
+          <record name="contentModel" javaclass="com.wm.util.Values">
+            <record name="symbol" javaclass="com.wm.util.Values">
+              <value name="ncName">$$SEQUENCE</value>
+            </record>
+            <value name="minOccurs">1</value>
+            <value name="maxOccurs">1</value>
+            <value name="modelType">sequence</value>
+            <list name="children">
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                  <value name="ncName">tCountryCodeAndName</value>
+                </record>
+                <value name="minOccurs">0</value>
+                <value name="maxOccurs">*</value>
+                <value name="modelType">simple</value>
+              </record>
+            </list>
+          </record>
+          <array name="parent-ancestors" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+              <value name="ncName">anyType</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+              <value name="ncName">ArrayOftCountryCodeAndName</value>
+            </record>
+          </array>
+          <value name="classname">com.wm.lang.schema.WmComplexType</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="contentType">2</value>
+          <value name="internalType">instance</value>
+          <value name="name">tCurrency</value>
+          <list name="elements">
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+              <value name="name">sISOCode</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">string</value>
+                  </record>
+                </array>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+              <value name="name">sName</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">string</value>
+                  </record>
+                </array>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+          </list>
+          <list name="attributes">
+          </list>
+          <record name="contentModel" javaclass="com.wm.util.Values">
+            <record name="symbol" javaclass="com.wm.util.Values">
+              <value name="ncName">$$SEQUENCE</value>
+            </record>
+            <value name="minOccurs">1</value>
+            <value name="maxOccurs">1</value>
+            <value name="modelType">sequence</value>
+            <list name="children">
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                  <value name="ncName">sISOCode</value>
+                </record>
+                <value name="minOccurs">1</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                  <value name="ncName">sName</value>
+                </record>
+                <value name="minOccurs">1</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+            </list>
+          </record>
+          <array name="parent-ancestors" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+              <value name="ncName">anyType</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+              <value name="ncName">tCurrency</value>
+            </record>
+          </array>
+          <value name="classname">com.wm.lang.schema.WmComplexType</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="contentType">2</value>
+          <value name="internalType">instance</value>
+          <value name="name">ArrayOftCountryInfo</value>
+          <list name="elements">
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+              <value name="name">tCountryInfo</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">2</value>
+                <value name="internalType">reference</value>
+                <record name="targetName" javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                  <value name="ncName">tCountryInfo</value>
+                </record>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+              <value name="nullable">true</value>
+              <value name="nillable">true</value>
+            </record>
+          </list>
+          <list name="attributes">
+          </list>
+          <record name="contentModel" javaclass="com.wm.util.Values">
+            <record name="symbol" javaclass="com.wm.util.Values">
+              <value name="ncName">$$SEQUENCE</value>
+            </record>
+            <value name="minOccurs">1</value>
+            <value name="maxOccurs">1</value>
+            <value name="modelType">sequence</value>
+            <list name="children">
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                  <value name="ncName">tCountryInfo</value>
+                </record>
+                <value name="minOccurs">0</value>
+                <value name="maxOccurs">*</value>
+                <value name="modelType">simple</value>
+              </record>
+            </list>
+          </record>
+          <array name="parent-ancestors" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+              <value name="ncName">anyType</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+              <value name="ncName">ArrayOftCountryInfo</value>
+            </record>
+          </array>
+          <value name="classname">com.wm.lang.schema.WmComplexType</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="contentType">2</value>
+          <value name="internalType">instance</value>
+          <value name="name">tCountryInfo</value>
+          <list name="elements">
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+              <value name="name">sISOCode</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">string</value>
+                  </record>
+                </array>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+              <value name="name">sName</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">string</value>
+                  </record>
+                </array>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+              <value name="name">sCapitalCity</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">string</value>
+                  </record>
+                </array>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+              <value name="name">sPhoneCode</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">string</value>
+                  </record>
+                </array>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+              <value name="name">sContinentCode</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">string</value>
+                  </record>
+                </array>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+              <value name="name">sCurrencyISOCode</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">string</value>
+                  </record>
+                </array>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+              <value name="name">sCountryFlag</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">string</value>
+                  </record>
+                </array>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+              <value name="name">Languages</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">2</value>
+                <value name="internalType">reference</value>
+                <record name="targetName" javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                  <value name="ncName">ArrayOftLanguage</value>
+                </record>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+          </list>
+          <list name="attributes">
+          </list>
+          <record name="contentModel" javaclass="com.wm.util.Values">
+            <record name="symbol" javaclass="com.wm.util.Values">
+              <value name="ncName">$$SEQUENCE</value>
+            </record>
+            <value name="minOccurs">1</value>
+            <value name="maxOccurs">1</value>
+            <value name="modelType">sequence</value>
+            <list name="children">
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                  <value name="ncName">sISOCode</value>
+                </record>
+                <value name="minOccurs">1</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                  <value name="ncName">sName</value>
+                </record>
+                <value name="minOccurs">1</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                  <value name="ncName">sCapitalCity</value>
+                </record>
+                <value name="minOccurs">1</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                  <value name="ncName">sPhoneCode</value>
+                </record>
+                <value name="minOccurs">1</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                  <value name="ncName">sContinentCode</value>
+                </record>
+                <value name="minOccurs">1</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                  <value name="ncName">sCurrencyISOCode</value>
+                </record>
+                <value name="minOccurs">1</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                  <value name="ncName">sCountryFlag</value>
+                </record>
+                <value name="minOccurs">1</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                  <value name="ncName">Languages</value>
+                </record>
+                <value name="minOccurs">1</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+            </list>
+          </record>
+          <array name="parent-ancestors" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+              <value name="ncName">anyType</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+              <value name="ncName">tCountryInfo</value>
+            </record>
+          </array>
+          <value name="classname">com.wm.lang.schema.WmComplexType</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="contentType">2</value>
+          <value name="internalType">instance</value>
+          <value name="name">ArrayOftLanguage</value>
+          <list name="elements">
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+              <value name="name">tLanguage</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">2</value>
+                <value name="internalType">reference</value>
+                <record name="targetName" javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                  <value name="ncName">tLanguage</value>
+                </record>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+              <value name="nullable">true</value>
+              <value name="nillable">true</value>
+            </record>
+          </list>
+          <list name="attributes">
+          </list>
+          <record name="contentModel" javaclass="com.wm.util.Values">
+            <record name="symbol" javaclass="com.wm.util.Values">
+              <value name="ncName">$$SEQUENCE</value>
+            </record>
+            <value name="minOccurs">1</value>
+            <value name="maxOccurs">1</value>
+            <value name="modelType">sequence</value>
+            <list name="children">
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                  <value name="ncName">tLanguage</value>
+                </record>
+                <value name="minOccurs">0</value>
+                <value name="maxOccurs">*</value>
+                <value name="modelType">simple</value>
+              </record>
+            </list>
+          </record>
+          <array name="parent-ancestors" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+              <value name="ncName">anyType</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+              <value name="ncName">ArrayOftLanguage</value>
+            </record>
+          </array>
+          <value name="classname">com.wm.lang.schema.WmComplexType</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="contentType">2</value>
+          <value name="internalType">instance</value>
+          <value name="name">tContinent</value>
+          <list name="elements">
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+              <value name="name">sCode</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">string</value>
+                  </record>
+                </array>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+              <value name="name">sName</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">string</value>
+                  </record>
+                </array>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+          </list>
+          <list name="attributes">
+          </list>
+          <record name="contentModel" javaclass="com.wm.util.Values">
+            <record name="symbol" javaclass="com.wm.util.Values">
+              <value name="ncName">$$SEQUENCE</value>
+            </record>
+            <value name="minOccurs">1</value>
+            <value name="maxOccurs">1</value>
+            <value name="modelType">sequence</value>
+            <list name="children">
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                  <value name="ncName">sCode</value>
+                </record>
+                <value name="minOccurs">1</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                  <value name="ncName">sName</value>
+                </record>
+                <value name="minOccurs">1</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+            </list>
+          </record>
+          <array name="parent-ancestors" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+              <value name="ncName">anyType</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+              <value name="ncName">tContinent</value>
+            </record>
+          </array>
+          <value name="classname">com.wm.lang.schema.WmComplexType</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="contentType">2</value>
+          <value name="internalType">instance</value>
+          <value name="name">tCountryCodeAndNameGroupedByContinent</value>
+          <list name="elements">
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+              <value name="name">Continent</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">2</value>
+                <value name="internalType">reference</value>
+                <record name="targetName" javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                  <value name="ncName">tContinent</value>
+                </record>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+              <value name="name">CountryCodeAndNames</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">2</value>
+                <value name="internalType">reference</value>
+                <record name="targetName" javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                  <value name="ncName">ArrayOftCountryCodeAndName</value>
+                </record>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+            </record>
+          </list>
+          <list name="attributes">
+          </list>
+          <record name="contentModel" javaclass="com.wm.util.Values">
+            <record name="symbol" javaclass="com.wm.util.Values">
+              <value name="ncName">$$SEQUENCE</value>
+            </record>
+            <value name="minOccurs">1</value>
+            <value name="maxOccurs">1</value>
+            <value name="modelType">sequence</value>
+            <list name="children">
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                  <value name="ncName">Continent</value>
+                </record>
+                <value name="minOccurs">1</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+                  <value name="ncName">CountryCodeAndNames</value>
+                </record>
+                <value name="minOccurs">1</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+            </list>
+          </record>
+          <array name="parent-ancestors" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+              <value name="ncName">anyType</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.oorsprong.org/websamples.countryinfo</value>
+              <value name="ncName">tCountryCodeAndNameGroupedByContinent</value>
+            </record>
+          </array>
+          <value name="classname">com.wm.lang.schema.WmComplexType</value>
+        </record>
+      </list>
+    </record>
+    <record name="uriReferencePrefixPairs" javaclass="com.wm.util.Values">
+      <value name="http://schemas.xmlsoap.org/soap/encoding/">wmns1</value>
+      <value name="http://www.w3.org/2001/XMLSchema">xs</value>
+      <value name="http://www.oorsprong.org/websamples.countryinfo">tns</value>
+      <value name="http://www.w3.org/1999/XMLSchema">ns</value>
+    </record>
+    <value name="originURI">http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?WSDL</value>
+    <value name="modifiable">false</value>
+  </record>
+</Values>
